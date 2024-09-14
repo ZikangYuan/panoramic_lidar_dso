@@ -107,3 +107,22 @@ Then open the terminal in the path of the <PATH_OF_PROJECT_FOLDER>/build, and ty
 ./dso_dataset dataset=<PATH_OF_IJRR_FOLDER> sequence=<SEQUENCE_NAME> seg=<SEGMENT_NUMBER> calib=<PATH_OF_PROJECT_FOLDER>/calib/ijrr/calib undistort=<PATH_OF_PROJECT_FOLDER>/calib/ijrr/U2D_Cam pathSensorPrameter=<PATH_OF_PROJECT_FOLDER>/sensor/ijrr/x_lb3_c resultPath=<PATH_OF_PROJECT_FOLDER>/output/pose.txt mode=1 quiet=0 IJRR=1
 ```
 
+## Citation
+
+If you use our work in your research project, please consider citing:
+
+```
+@article{yuan2023sdv,
+  author={Yuan, Zikang and Wang, Qingjie and Cheng, Ken and Hao, Tianyu and Yang, Xin},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={SDV-LOAM: Semi-Direct Visual–LiDAR Odometry and Mapping}, 
+  year={2023},
+  volume={45},
+  number={9},
+  pages={11203-11220},
+}
+```
+
+## Acknowledgments
+
+Thanks for [DSO](https://github.com/JakobEngel/dso).
