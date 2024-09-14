@@ -10,11 +10,11 @@ Authors: [*Zikang Yuan*](https://scholar.google.com/citations?hl=zh-CN&user=acxd
 
 ## Demo Video (2024-09-14 Update)
 
-The **x16 Real-Time Performance (Left)** and **Final Trjaectory and Sparse Map (Right)** on the segment of sequence *2012-01-08* from [*NCLT*](http://robots.engin.umich.edu/nclt/) dataset.
+The **x16 Real-Time Performance (Up)** and **Final Trjaectory and Sparse Map (Down)** on the segment of sequence *2012-01-08* from [*NCLT*](http://robots.engin.umich.edu/nclt/) dataset.
 
 <div align="left">
-<img src="doc/run_outdoor.gif" width=48% />
-<img src="doc/final_trajectory.png" width=49.6% />
+<img src="doc/run_outdoor.gif" width=100% />
+<img src="doc/final_trajectory.png" width=100% />
 </div>
 
 ## Installation
