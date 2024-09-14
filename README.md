@@ -72,8 +72,8 @@ Before running, please ensure the dataset format is as follow:
 			  |____________velodyne_sync
 ```
 
-Then open the terminal in the path of the *<PATH_OF_Panoramic-LDSO_FOLDER>/build*, and type:
+Then open the terminal in the path of the <PATH_OF_PROJECT_FOLDER>/build, and type:
 
 ```bash
-rosbag play SEQUENCE_NAME.bag --clock -d 1.0
+./dso_dataset dataset=<PATH_OF_NCLT_FOLDER> sequence=<SEQUENCE_NAME> seg=<SEGMENT_NUMBER> calib=<PATH_OF_PROJECT_FOLDER>/calib/nclt/calib undistort=<PATH_OF_PROJECT_FOLDER>/calib/nclt/U2D_Cam pathSensorPrameter<PATH_OF_PROJECT_FOLDER>/sensor/nclt/x_lb3_c resultPath=<PATH_OF_PROJECT_FOLDER>/output/pose.txt mode=1 quiet=0 IJRR=0
 ```
