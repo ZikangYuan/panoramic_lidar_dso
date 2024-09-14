@@ -1,4 +1,4 @@
-# panoramic_lidar_dso
+# Panoramic-LDSO
 A panoramic direct LiDAR-assisted visual odometry.
 
 ## Demo Video (2024-09-14 Update)
@@ -50,28 +50,28 @@ Noted: Currently the package only supports interfaces to *NCLT* and *IJRR* datas
 Before running, please ensure the dataset format is as follow:
 
 ```bash
-<sequence folder name>
-	|____________rgb
-	|____________depth
-	|____________associate.txt
+<PATH_OF_NCLT_FOLDER>
+	|____________2012-01-08
+			  |____________lb3
+			  |____________velodyne_sync
+	|____________2012-09-28
+			  |____________lb3
+			  |____________velodyne_sync
+	|____________2012-11-04
+			  |____________lb3
+			  |____________velodyne_sync
+	|____________2012-12-01
+			  |____________lb3
+			  |____________velodyne_sync
+	|____________2013-02-23
+			  |____________lb3
+			  |____________velodyne_sync
+	|____________2013-04-05
+			  |____________lb3
+			  |____________velodyne_sync
 ```
 
-If the image message type is **sensor_msgs/Image**, please type:
-
-```bash
-cd SR-LIVO
-source devel/setup.bash
-roslaunch sr_livo livo_r3live.launch
-```
-
-If the image message type is **sensor_msgs/CompressedImage**, please type:
-
-```bash
-cd SR-LIVO
-source devel/setup.bash
-roslaunch sr_livo livo_r3live_compressed.launch
-```
-Then open the terminal in the path of the bag file, and type:
+Then open the terminal in the path of the <PATH_OF_Panoramic-LDSO_FOLDER>/buld, and type:
 
 ```bash
 rosbag play SEQUENCE_NAME.bag --clock -d 1.0
