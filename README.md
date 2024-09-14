@@ -3,10 +3,11 @@ A panoramic direct LiDAR-assisted visual odometry.
 
 ## Demo Video (2024-09-14 Update)
 
-The **x16 Real-Time Performance** on the segment of sequence *2012-01-08* from [*NCLT*](http://robots.engin.umich.edu/nclt/) dataset.
+The **x16 Real-Time Performance (Left)** and **Final Trjaectory and Sparse Map (Right)** on the segment of sequence *2012-01-08* from [*NCLT*](http://robots.engin.umich.edu/nclt/) dataset.
 
 <div align="left">
-<img src="doc/run_outdoor.gif" width=52.11% />
+<img src="doc/run_outdoor.gif" width=48% />
+<img src="doc/final_trajectory.png" width=49.6% />
 </div>
 
 ## Installation
