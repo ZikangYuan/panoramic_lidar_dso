@@ -51,9 +51,9 @@ Before running, please ensure the dataset format is as follow:
 
 ```bash
 <sequence folder name>
-			|____________rgb
-			|____________depth
-			|____________associate.txt
+	|____________rgb
+	|____________depth
+	|____________associate.txt
 ```
 
 If the image message type is **sensor_msgs/Image**, please type:
