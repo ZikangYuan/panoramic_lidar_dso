@@ -77,3 +77,26 @@ Then open the terminal in the path of the <PATH_OF_PROJECT_FOLDER>/build, and ty
 ```bash
 ./dso_dataset dataset=<PATH_OF_NCLT_FOLDER> sequence=<SEQUENCE_NAME> seg=<SEGMENT_NUMBER> calib=<PATH_OF_PROJECT_FOLDER>/calib/nclt/calib undistort=<PATH_OF_PROJECT_FOLDER>/calib/nclt/U2D_Cam pathSensorPrameter<PATH_OF_PROJECT_FOLDER>/sensor/nclt/x_lb3_c resultPath=<PATH_OF_PROJECT_FOLDER>/output/pose.txt mode=1 quiet=0 IJRR=0
 ```
+
+###  2. Run on [*IJRR*](https://robots.engin.umich.edu/SoftwareData/InfoFord)
+
+Before running, please ensure the dataset format is as follow:
+
+```bash
+<PATH_OF_IJRR_FOLDER>
+	|____________ford_1
+			|____________Timestamp.log
+			|____________IMAGES
+			|____________pcd
+	|____________ford_2
+			|____________Timestamp.log
+			|____________IMAGES
+			|____________pcd
+```
+
+Then open the terminal in the path of the <PATH_OF_PROJECT_FOLDER>/build, and type:
+
+```bash
+./dso_dataset dataset=<PATH_OF_IJRR_FOLDER> sequence=<SEQUENCE_NAME> seg=<SEGMENT_NUMBER> calib=<PATH_OF_PROJECT_FOLDER>/calib/ijrr/calib undistort=<PATH_OF_PROJECT_FOLDER>/calib/ijrr/U2D_Cam pathSensorPrameter=<PATH_OF_PROJECT_FOLDER>/sensor/ijrr/x_lb3_c resultPath=<PATH_OF_PROJECT_FOLDER>/output/pose.txt mode=1 quiet=0 IJRR=1
+```
+
