@@ -3,7 +3,7 @@ A panoramic direct LiDAR-assisted visual odometry.
 
 ## Demo Video (2024-09-14 Update)
 
-The **x16 Real-Time Performance** on the sequence *nclt_2012_01_08* of self-collected dataset from [**NCLT**](http://robots.engin.umich.edu/nclt/).
+The **x16 Real-Time Performance** on the segment of sequence *2012-01-08* from [*NCLT*](http://robots.engin.umich.edu/nclt/) dataset.
 
 <div align="left">
 <img src="doc/run_outdoor.gif" width=52.11% />
@@ -39,4 +39,40 @@ mkdir build
 cd build
 cmake ..
 make
+```
+
+## Run on Public Datasets
+
+Noted: Currently the package only supports interfaces to *NCLT* and *IJRR* datasets. If you want to run on other datasets, you'll need to modify the code yourself.
+
+###  1. Run on [*NCLT*](http://robots.engin.umich.edu/nclt/)
+
+Before running, please ensure the dataset format is as follow:
+
+```bash
+<sequence folder name>
+			|____________rgb
+			|____________depth
+			|____________associate.txt
+```
+
+If the image message type is **sensor_msgs/Image**, please type:
+
+```bash
+cd SR-LIVO
+source devel/setup.bash
+roslaunch sr_livo livo_r3live.launch
+```
+
+If the image message type is **sensor_msgs/CompressedImage**, please type:
+
+```bash
+cd SR-LIVO
+source devel/setup.bash
+roslaunch sr_livo livo_r3live_compressed.launch
+```
+Then open the terminal in the path of the bag file, and type:
+
+```bash
+rosbag play SEQUENCE_NAME.bag --clock -d 1.0
 ```
