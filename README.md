@@ -1,7 +1,7 @@
 # panoramic_lidar_dso
 A panoramic direct LiDAR-assisted visual odometry.
 
-## Demo Video (2023-09-14 Update)
+## Demo Video (2024-09-14 Update)
 
 The **x16 Real-Time Performance** on the sequence *nclt_2012_01_08* of self-collected dataset from [**NCLT**](http://robots.engin.umich.edu/nclt/).
 
