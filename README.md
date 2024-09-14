@@ -53,7 +53,7 @@ make
 
 Noted: 
 
-1. Before running, please down load the **calib** folder from [Google drive](https://drive.google.com/drive/folders/1WnvzUzP_s70p4myPf5fsP1Jtr_62PnL1)**, and put it under the <PATH_OF_PROJECT_FOLDER>.
+1. Before running, please down load the **calib** folder from **[Google drive](https://drive.google.com/drive/folders/1WnvzUzP_s70p4myPf5fsP1Jtr_62PnL1)**, and put it under the <PATH_OF_PROJECT_FOLDER>.
 
 2. Currently the package only supports interfaces to *NCLT* and *IJRR* datasets. If you want to run on other datasets, you'll need to modify the code yourself.
 
