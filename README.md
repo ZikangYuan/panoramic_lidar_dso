@@ -1,5 +1,12 @@
 # Panoramic-LDSO
-A panoramic direct LiDAR-assisted visual odometry.
+
+**Panoramic-LDSO** (Panoramic Direct LiDAR-assisted Visual Odometry) is designed for fully associating the 360-degree field-of-view (FOV) LiDAR points with the 360-degree FOV panoramic image datas. 360-degree FOV panoramic images can provide more available information, which can compensate inaccurate pose estimation caused by insufficient texture or motion blur from a single view.
+
+## Related Work
+
+[SDV-LOAM: Semi-Direct Visual-LiDAR Odometry and Mapping](https://ieeexplore.ieee.org/abstract/document/10086694)
+
+Authors: [*Zikang Yuan*](https://scholar.google.com/citations?hl=zh-CN&user=acxdM9gAAAAJ), *Qingjie Wang*, *Ken Cheng*, *Tianyu Hao* and [*Xin Yang*](https://scholar.google.com/citations?user=lsz8OOYAAAAJ&hl=zh-CN)
 
 ## Demo Video (2024-09-14 Update)
 
