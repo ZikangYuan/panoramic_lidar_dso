@@ -71,7 +71,7 @@ Before running, please ensure the dataset format is as follow:
 			  |____________velodyne_sync
 ```
 
-Then open the terminal in the path of the <PATH_OF_Panoramic-LDSO_FOLDER>/buld, and type:
+Then open the terminal in the path of the *<PATH_OF_Panoramic-LDSO_FOLDER>/build*, and type:
 
 ```bash
 rosbag play SEQUENCE_NAME.bag --clock -d 1.0
