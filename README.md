@@ -4,7 +4,7 @@
 
 ## Related Work
 
-[https://arxiv.org/abs/2409.09287](https://arxiv.org/abs/2409.09287)
+[Panoramic Direct LiDAR-assisted Visual Odometry](https://arxiv.org/abs/2409.09287)
 
 Authors: [*Zikang Yuan*](https://scholar.google.com/citations?hl=zh-CN&user=acxdM9gAAAAJ), *Tianle Xu*, *Xiaoxiang Wang*, *Jinni Geng* and [*Xin Yang*](https://scholar.google.com/citations?user=lsz8OOYAAAAJ&hl=zh-CN)
 
