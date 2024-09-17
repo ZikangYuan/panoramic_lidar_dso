@@ -4,9 +4,9 @@
 
 ## Related Work
 
-[SDV-LOAM: Semi-Direct Visual-LiDAR Odometry and Mapping](https://ieeexplore.ieee.org/abstract/document/10086694)
+[https://arxiv.org/abs/2409.09287](https://arxiv.org/abs/2409.09287)
 
-Authors: [*Zikang Yuan*](https://scholar.google.com/citations?hl=zh-CN&user=acxdM9gAAAAJ), *Qingjie Wang*, *Ken Cheng*, *Tianyu Hao* and [*Xin Yang*](https://scholar.google.com/citations?user=lsz8OOYAAAAJ&hl=zh-CN)
+Authors: [*Zikang Yuan*](https://scholar.google.com/citations?hl=zh-CN&user=acxdM9gAAAAJ), *Tianle Xu*, *Xiaoxiang Wang*, *Jinni Geng* and [*Xin Yang*](https://scholar.google.com/citations?user=lsz8OOYAAAAJ&hl=zh-CN)
 
 ## Demo Video (2024-09-14 Update)
 
@@ -116,14 +116,11 @@ Then open the terminal in the path of the <PATH_OF_PROJECT_FOLDER>/build, and ty
 If you use our work in your research project, please consider citing:
 
 ```
-@article{yuan2023sdv,
-  author={Yuan, Zikang and Wang, Qingjie and Cheng, Ken and Hao, Tianyu and Yang, Xin},
-  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
-  title={SDV-LOAM: Semi-Direct Visual–LiDAR Odometry and Mapping}, 
-  year={2023},
-  volume={45},
-  number={9},
-  pages={11203-11220},
+@article{yuan2024panoramic,
+  title={Panoramic Direct LiDAR-assisted Visual Odometry},
+  author={Yuan, Zikang and Xu, Tianle and Wang, Xiaoxiang and Geng, Jinni and Yang, Xin},
+  journal={arXiv preprint arXiv:2409.09287},
+  year={2024}
 }
 ```
 
