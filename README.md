@@ -2,12 +2,6 @@
 
 **Panoramic-LDSO** (Panoramic Direct LiDAR-assisted Visual Odometry) is designed for fully associating the 360-degree field-of-view (FOV) LiDAR points with the 360-degree FOV panoramic image datas. 360-degree FOV panoramic images can provide more available information, which can compensate inaccurate pose estimation caused by insufficient texture or motion blur from a single view.
 
-## Related Work
-
-[Panoramic Direct LiDAR-assisted Visual Odometry](https://arxiv.org/abs/2409.09287)
-
-Authors: [*Zikang Yuan*](https://scholar.google.com/citations?hl=zh-CN&user=acxdM9gAAAAJ), *Tianle Xu*, *Xiaoxiang Wang*, *Jinni Geng* and [*Xin Yang*](https://scholar.google.com/citations?user=lsz8OOYAAAAJ&hl=zh-CN)
-
 ## Demo Video (2024-09-14 Update)
 
 The **x16 Real-Time Performance (Up)** and **Final Trjaectory and Sparse Map (Down)** on the segment of sequence *2012-01-08* from [*NCLT*](http://robots.engin.umich.edu/nclt/) dataset.
@@ -109,19 +103,6 @@ Then open the terminal in the path of the <PATH_OF_PROJECT_FOLDER>/build, and ty
 
 ```bash
 ./dso_dataset dataset=<PATH_OF_IJRR_FOLDER> sequence=<SEQUENCE_NAME> seg=<SEGMENT_NUMBER> calib=<PATH_OF_PROJECT_FOLDER>/calib/ijrr/calib undistort=<PATH_OF_PROJECT_FOLDER>/calib/ijrr/U2D_Cam pathSensorPrameter=<PATH_OF_PROJECT_FOLDER>/sensor/ijrr/x_lb3_c resultPath=<PATH_OF_PROJECT_FOLDER>/output/pose.txt mode=1 quiet=0 IJRR=1
-```
-
-## Citation
-
-If you use our work in your research project, please consider citing:
-
-```
-@article{yuan2024panoramic,
-  title={Panoramic Direct LiDAR-assisted Visual Odometry},
-  author={Yuan, Zikang and Xu, Tianle and Wang, Xiaoxiang and Geng, Jinni and Yang, Xin},
-  journal={arXiv preprint arXiv:2409.09287},
-  year={2024}
-}
 ```
 
 ## Acknowledgments
